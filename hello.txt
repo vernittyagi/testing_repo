@@ -2,3 +2,4 @@
 Hello VERNIT, welcome to git!!!!!
 This is the new line added by vernit on the web!!!!
 This line is added through CLI!!!!
+This the latest line I have added till now using git!!!! THANKS TO 'Git' in our life!!!
