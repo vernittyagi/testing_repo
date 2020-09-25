@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    stages {
+        stage('Running the ansible code in git') {
+            steps {
+                echo "Running the ansible code"
+                sh '''
+                      ls -lrt
+                   '''
+            }
+        }
+
+    }
+    post {
+        always {
+            echo 'Completed the ansible run!'
+        }
+    }
+}
