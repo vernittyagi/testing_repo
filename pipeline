@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    triggers {
-        pollSCM '* * * * *'
-    }
     stages {
         stage('Running the ansible code in git') {
             steps {
