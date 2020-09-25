@@ -14,6 +14,7 @@ pipeline {
     post {
         always {
             echo 'Completed the ansible run!'
+            junit allowEmptyResults: true, testResults: 'reports/*.xml'
         }
     }
 }
