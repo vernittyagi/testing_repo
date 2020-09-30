@@ -1,1 +1,12 @@
-
+<?xml version="1.0" ?>
+<testsuites>
+    <testsuite errors="0" failures="0" name="my test suite" tests="1">
+            <system-out>
+                I am stdout!
+            </system-out>
+            <system-err>
+                I am stderr!
+            </system-err>
+        </testcase>
+    </testsuite>
+</testsuites>
