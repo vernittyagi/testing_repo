@@ -7,5 +7,4 @@
             <system-err>
                 I am stderr!
             </system-err>
-        </testcase>
 </testsuites>
